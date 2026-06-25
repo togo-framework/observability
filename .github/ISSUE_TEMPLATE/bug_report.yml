@@ -1,0 +1,11 @@
+name: Bug report
+description: Report a problem with the togo observability plugin
+labels: [bug]
+body:
+  - type: textarea
+    id: what
+    attributes: { label: What happened?, description: Clear description + steps to reproduce. }
+    validations: { required: true }
+  - type: input
+    id: version
+    attributes: { label: observability / togo version }
